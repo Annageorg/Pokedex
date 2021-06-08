@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #efefbb;
+    background: linear-gradient(to right, #bb4602, #1c8502);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    letter-spacing: 0.3rem;
+    font-size: xx-large;
+}
+.poke-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 120rem;
+}
+.pokemon {
+    background-color: #eee;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 1.5rem rgba(100, 100, 100, 0.9);
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.pokemon .image-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+}
+.pokemon .image-container img {
+    max-width: 90%;
+    margin-top: 2rem;
+}
+.pokemon .info {
+    margin-top: 2rem;
+}
+.pokemon .info .number {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.8em;
+}
+.pokemon .info .name {
+    margin: 1.5rem 0 0.7rem;
+    letter-spacing: 0.1rem;
+}
