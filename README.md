@@ -1,6 +1,7 @@
 # Pokedex
 
-App diplaying 150 pokemons pictures, names, number, and type 
+App diplaying 150 pokemons pictures, names, number, and type
+App can be found [here](https://annageorg.github.io/Pokedex/)
 
 ## Details
 * Created with HTML, CSS, JavaScript
